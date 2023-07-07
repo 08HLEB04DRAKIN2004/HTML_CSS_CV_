@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Моя страница</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>CurriculumVitae</h1>
+  </header>
+  <main>
+    <div class="container">
+      <div class="info-section">
+        <img src="ava.jpg" alt="Моя фотография" class="photo">
+        <p>Hleb Drakin</p>
+        
+      <nav>
+          <ul>
+            <li>
+              <strong>Phone:</strong>
+              <a href="tel:+37525xxxxx19">+375(25)-xxx-15-19</a>
+            </li>
+            <li>
+              <strong>Vkontakte:</strong>
+              <a href="https://vk.com/gdrakin" title="Vkontakte">Vkontakte</a>
+            </li>
+            <li>
+              <strong>Email:</strong>
+              <a href="mailto:g_drakin@mail.ru" title="Mail.ru">Mail.ru</a>
+            </li>
+            <li>
+              <strong>Telegram:</strong>
+              <a href="https://t.me/drknhb" title="Telegram">Telegram</a>
+            </li>
+          </ul>
+        </nav>
+        
+      </div>
+      <section>
+        <h2>Contact Information</h2>
+        <nav>
+          <div class="about-me">
+            <h2>Briefly About Myself:</h2>
+            <p>I am a student of the Belarusian-Russian University. I study at the Faculty of Engineering and Economics. I am a software engineer. I like programming in:</p>
+            <ul>
+              <li>C#</li>
+              <li>T-SQL</li>
+              <li>HTML, CSS, JS</li>
+            </ul>
+            <h2>Code example</h2>
+            <pre>
+              <code>
+      namespace DeveloperApiCSharpSample
+      {
+          class Program
+          {
+              static void Main(string[] args)
+              {
+                  var config = new ClientConfiguration()
+                  {
+                      ApplicationId = "...",
+                      InAppProductId = "...",
+                      FlightId = "...",
+                      ClientId = "...",
+                      ClientSecret = "...",
+                      ServiceUrl = "https://manage.devcenter.microsoft.com",
+                      TokenEndpoint = "https://login.microsoftonline.com/&lt;tenantid&gt;/oauth2/token",
+                      Scope = "https://manage.devcenter.microsoft.com",
+                  };
+      
+                  new FlightSubmissionUpdateSample(config).RunFlightSubmissionUpdateSample();
+                  new InAppProductSubmissionUpdateSample(config).RunInAppProductSubmissionUpdateSample();
+                  new InAppProductSubmissionCreateSample(config).RunInAppProductSubmissionCreateSample();
+                  new AppSubmissionUpdateSample(config).RunAppSubmissionUpdateSample();
+              }
+          }
+      }
+              </code>
+            </pre>
+          </div>
+        </nav>
+      </section>
+    </div>
+  </main>
+  <footer>
+    <p>GitHub: <a href="https://github.com/04HLEB04DRAKIN2004">Hleb Drakin</a>|2023</p>
+  </footer>
+</body>
+</html>

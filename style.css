@@ -1,0 +1,79 @@
+header h1{
+  background: #a98989;
+  margin: 0px;
+}
+footer{
+  text-align: center;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+p{
+  margin: 20px;
+  font-size: 50px;
+}
+h2{
+  margin: 30px;
+  font-size: 25px;
+}
+h1 {
+  margin: 5px;
+  color: #333333;
+  text-align: center;
+  font-size: 28px; /* Увеличьте размер заголовка по желанию */
+}
+ul, ol {
+  font-size: 15px;
+}
+strong{
+  margin: 5px;
+  font-size: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: center; /* Горизонтальное центрирование */
+}
+
+.info-section {
+  flex-basis: 50%;
+  background-color: #a98989;
+  padding: 5px;
+  border-radius: 0px;
+}
+
+.contact-info strong {
+  display: block;
+  margin-bottom: 3px; /* Изменено расстояние между строками */
+}
+
+.photo {
+  max-width: 300px; /* Увеличен размер изображения */
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.contact-info a {
+  font-size: 20px;
+}
+
+.about-me {
+  flex-basis: 80%; /* Изменено значение */
+  max-width: 800px; /* Добавлено ограничение ширины */
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-radius: 1px;
+}
+
+.about-me h2 {
+  margin-bottom: 40px;
+}
+
+.about-me p {
+  font-size: 25px;
+  line-height: 1.3; /* Уменьшено расстояние между строками */
+}
