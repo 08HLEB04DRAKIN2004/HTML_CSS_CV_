@@ -33,12 +33,14 @@ strong{
   font-size: 20px;
 }
 
-.container {
+main {
   display: flex;
+  
 }
 
 .info-section {
-  flex-basis: 50%;
+  float: left;
+  width: 25%;
   background-color: #a98989;
   padding: 5px;
   border-radius: 0px;
@@ -67,12 +69,11 @@ strong{
   padding: 10px;
   border-radius: 1px;
 }
-
-.about-me h2 {
+.Codeexample h2 {
   margin-bottom: 40px;
 }
 
-.about-me p {
+.brieflyaboutMySelf p {
   font-size: 25px;
   line-height: 1.3; /* Уменьшено расстояние между строками */
 }
